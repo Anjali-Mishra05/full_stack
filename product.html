@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Store</title>
+    <link rel="stylesheet" href="prdctcss.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🛒 Product Store</h1>
+
+        <div class="grid-container">
+            <div class="add-product">
+                <h2>Add Product</h2>
+                <input type="text" id="productName" placeholder="Product Name">
+                <input type="number" id="productPrice" placeholder="Price ($)">
+                <input type="text" id="productDescription" placeholder="Description">
+                <button onclick="addProduct()">➕ Add Product</button>
+            </div>
+
+            <div class="filter">
+                <h2>Filter Products</h2>
+                <input type="number" id="minPrice" placeholder="Min Price ($)">
+                <button onclick="filterProducts()">🔍 Filter</button>
+            </div>
+        </div>
+
+        <h2>Available Products</h2>
+        <div id="product-list"></div>
+    </div>
+
+    <script src="prdctjava.js"></script>
+</body>
+</html>
