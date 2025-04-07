@@ -1,0 +1,125 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0b0b6b, #0b0b6b);
+    padding: 20px;
+    color: #fff;
+}
+
+h2, h3 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.card {
+    background: #d9d9d9;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+input, button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #00B8D4;
+    color: white;
+    transition: 0.3s;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    background-color: #0099CC;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #0099CC;
+    color: white;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #EAF4FC;
+}
+
+tr:nth-child(odd) {
+    background-color: #F9FAFC;
+}
+
+.table-container {
+    max-height: 300px;
+    overflow-y: auto;
+    display: block;
+    background: #ffffff;
+}
+
+#search {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #A0D2EB;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card, table, input, button {
+    border-radius: 12px;
+}
+
+#editModal .modal-title {
+    color: #ffffff;
+}
+
+#editModal .modal-body label {
+    color: #ffffff;
+}
+
+.modal-content {
+    background-color: #1f1f8d;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.table-container {
+    overflow: hidden;
+}
+
+table tbody {
+    display: block;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+table thead, table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table th, table td {
+    width: 150px;
+    padding: 10px;
+}
